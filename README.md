@@ -9,11 +9,10 @@ The computer company client is pleased with the layouts you've created for them 
 3. If there are files and folders present other than this `readme.md` file, take some time to familiarize yourself with the files within the repo so you know where they are located. This will help you when asked to use them within the project directions.
 
    > **TIP:** Before beginning any work on the project, read through all the steps to understand what you will be doing.
-4. In your CSS subfolder create two new CSS files named: **mobile_style.css** and **tablet_style.css**
 
 <br>
 
-## Create the Services Page
+## Adjust the Template
 
 > **ASSIGNMENT TIP**<br>As you work on the styling for this assignment and future assignments, you should load the web page within your browser instead of using the preview window in VS Code. Then use the built in developer tools to simulate the different viewports that each CSS file will target. As you make adjustments to your CSS, see how it looks in the different viewports. Review the **Responsive Web Design** page in Lesson 9 for information on how to use the browser tools if needed. 
 
@@ -26,22 +25,23 @@ The computer company client is pleased with the layouts you've created for them 
 5. Create an link for the external Tablet stylesheet to:
     1. Apply a media query to load the tablet style CSS for any device that is smaller than 900px.
     > **TIP:** You must think through how to properly apply the tablet CSS file. If the media query is not designed correctly, it will override the mobile version and the mobile file will never be used.
-0. Save your changes and then save a copy of the Template to your Lesson 9 folder as: **services.html**
-0. Open the Services page from your Lesson 9 folder, if necessary.
-0. Update the HTML comment to add your section number and the lesson number.
-0. Update the metadata with the following: 
+
+## Create the Services Page
+1. Save a copy of the Template to your Lesson 9 folder as: **services.html**
+2. Open the Services page from your Lesson 9 folder, if necessary.
+3. Update the HTML comment to add your section number and the lesson number.
+4. Update the metadata with the following: 
     1. Change the title to: **Our Services**
-    0. Define the author using your first and last name.
-    0. Add a minimum of 5 keywords appropriate for the page content.
-    0. Add an appropriate description.
-0. Apply the **active** class to the "Services" link.
-0. Within the Main section, create an HTML layout structure for "cards" you'll define visually with CSS later on. Utilize the appropriate HTML elements complete the following:
-    1. Display an image.
-    0. Display the name of the service using an appropriate heading.
-    0. Add a description of the service.
-    0. Group the image, service name, and description in a generic container.
-0. Create two other cards to display a total of three cards.
-0. Insert the following as information for each appropriate card:
+    2. Define the author using your first and last name.
+    3. Add a minimum of 5 keywords appropriate for the page content.
+    4. Add an appropriate description.
+5. Apply the **active** class to the "Services" link.
+6. Within the Main section, create an HTML layout structure for a "card" you'll define visually with CSS later on. Utilize the appropriate HTML elements complete the following:
+    1. Display a 100px by 100px image.
+    2. Using an appropriate heading, display the name of the service.
+    3. Add a brief description of the service.
+7. Group the image, service name, and description in a generic container.
+8. Insert the following as information for a total of three cards:
 <table>
     <tr>
         <th>Image File</th>
@@ -66,26 +66,34 @@ The computer company client is pleased with the layouts you've created for them 
 </table>
 
 ## Style the Services page
-1. Within the default styles, add a comment to identify the breakpoint. **HINT:** Think about what you learned about the RWD principle: media queries are driven by site content.
-0. Above the Footer Styles, add appropriate selectors, ids, or classes to style the card layout you created for the services page.
-    1. Change the display of the card division elements so that two cards will appear side-by-side.
-    0. Float the image to the left of the container.
-    0. Apply a background color to the image and adjust the padding so the background color is clearly visible on all sides of the element.
-    0. Remove the margin from the second level heading and paragraphs.
-    0. Apply any additional CSS to apply background colors, margins, padding, margins, etc. to display as cards. See the example below *Note that the example is a rendering and that your cards may not appear the exact same.
-    
-    ![]()
+1. If necessary, open the `default_style.css` file.
+2. Update the multi-lined comment to add your MEID as the Author, course and section number, and current lesson number.
+3. Above the Footer Styles, add appropriate selectors, ids, or classes to style the whole group to look like a "card" using the following and the example below as a guideline.
+    1. Display two cards side-by-side horizontally.
+    2. Apply a white background color to the container.
+    3. Push the cards away from each other by the same value on all sides.
+    4. Add the following styles to the card images:
+        - Float the image to the left of the container. 
+        - Apply a bright background color of your choosing.
+        - Increase the white space so the background color is clearly visible on all sides of the element.
+        - Adjust the element to be no larger than 100px. **HINT:** 
+        - Push the elements to the right of the card images by 5px.
+    5. Remove the margin from the second-level heading and paragraphs.
+    6. Increase the white space for the second-level heading and paragraphs for overall readability.
+    7. Adjust the font size of the second-level heading and paragraphs so that the text fits within the container.
 
-
-## Style the Mobile and Tablet Views
-1. If necessary, open the mobile and tablet style sheets.
-0. Style each section of the page (e.g. header, footer, main, etc.) so that each section visually defined. While color is an option, to visually define each section, utilize appropriate font information, color, box model, etc. to make the changes obvious.
-0. Add comments at the beginning of each section to explain which elements you edited.
-0. Utilize the selectors from the default styles as a basis.
-    >**TIP:** You may need to modify the values of the properties to get things to look right and potentially add/remove other properties. 
-0. Style the wrapper division element so that it is the full width of the viewport for mobile devices and tablets.
+## Create a Responsive Design
+1. Create two copies of the `default_style.css` file.
+    1. Rename one file to `mobile_style.css` and the other file to `tablet_style.css`.
+2. Within the default styles, add a comment to identify the breakpoint value of the default stylesheet in pixels.
+3. Within the mobile styles and tablet styles, add a comment at the top explaining when the CSS file will be loaded by the browser.
+4. Style the main division element so that it is the full width of the viewport for mobile devices and tablets.
+5. Apply appropriate changes to the navigation bar so that each link is clearly visible for mobile devices and tablets.
+6. Style each section of the page (e.g. header, footer, main, etc.) so that each section visually defined. While color is an option to visually define each section, utilize appropriate font information, color, box model, etc. to make the changes obvious.
     > **TIP:** You can use the **Color Selection Tool** to generate different color schemes for each view. Note that you normally would not apply different color schemes to the different views in real world scenarios, but for the assignment, you will be required to do so to create additional visual differences between the three views.
-
+    1. If the design you are trying to accomplish isn't working the way you want, it is OK to modify the HTML file to add another division element to group content. Just know you will potentially have to account for this new element in selectors in the other style sheets. For example, if you wish the navigation menu to appear next to the heading and paragraph instead of under it, you may need to wrap the heading and paragraph in a division element to make them appear as inline blocks.
+    2. Add comments at the beginning of each section to explain what changes you made to make the content look good and why you made the changes you made.
+    
 ## Submit the Project
 Before you submit your project:
 1. Save your files and apply any final commits to your work.
