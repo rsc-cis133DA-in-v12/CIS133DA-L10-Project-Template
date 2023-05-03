@@ -39,17 +39,16 @@ The computer company client is pleased with the layouts you've created for them 
     3. Add a minimum of 5 keywords appropriate for the page content.
     4. Add an appropriate description.
 5. Apply the **active** class to the "Services" link.
-6. Within the Main section, create an HTML layout structure for a "card" you'll define visually with CSS later on. Utilize the appropriate HTML elements to include the following for each card:
-    1. Display a 100px by 100px image.
-    2. Using an appropriate heading, display the name of the service.
-    3. Add a brief description of the service.
-7. Group the image, service name, and description in a generic container.
-8. Insert the following as information for a total of three cards:
+6. Within the Main section, insert three separate DIV elements. These will serve as "cards" that will be defined visually with CSS later on. Apply a class to each div so that you can target them with your CSS. Within each div, include the following elements:
+    - an image element that will display a 100px by 100px image. The image files for these elements can be found in the images directory within your Lesson 10 repository.
+    - a heading that displays the name of the service.
+    - a paragraph that contains a brief description of the service.
+7. Use the following information for each of the three cards:
 <table>
     <tr>
         <th>Image File</th>
         <th>Service Name</th>
-        <th>Service description</th>
+        <th>Service Description</th>
     </tr>
     <tr>
         <td>computer.png</td>
@@ -71,7 +70,7 @@ The computer company client is pleased with the layouts you've created for them 
 ## Style the Services page
 1. If necessary, open the `default_style.css` file.
 2. Update the multi-lined comment to add your MEID as the Author, course and section number, and current lesson number.
-3. Above the Footer Styles, add appropriate selectors, ids, or classes to style the whole group to look like a "card" using the following and the example below as a guideline.
+3. Above the Footer Styles, add appropriate selectors, ids, or classes to style each div group to look like a "card" using the following steps. Refer to the example below as a guideline.
     1. Display two cards side-by-side horizontally.
     2. Apply a white background color to the container.
     3. Push the cards away from each other by the same value on all sides.
@@ -79,11 +78,17 @@ The computer company client is pleased with the layouts you've created for them 
         - Float the image to the left of the container. 
         - Apply a bright background color of your choosing.
         - Increase the white space so the background color is clearly visible on all sides of the element.
-        - Adjust the element to be no larger than 100px. **HINT:** 
+        - Adjust the width of the element to be 100px.  
         - Push the elements to the right of the card images by 5px.
     5. Remove the margin from the second-level heading and paragraphs.
     6. Increase the white space for the second-level heading and paragraphs for overall readability.
     7. Adjust the font size of the second-level heading and paragraphs so that the text fits within the container.
+
+Compare your image to the following example - your colors may vary:
+
+### Example Project
+
+![Screenshot of example Services page](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L10-example1.png)
 
 ## Create a Responsive Design
 1. Create two copies of the `default_style.css` file.
