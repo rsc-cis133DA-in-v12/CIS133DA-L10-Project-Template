@@ -1,5 +1,5 @@
 # Lesson 10 Project
-The computer company client is pleased with the layouts you've created for them so far. This week, the company would like you to focus on creating visual elements for viewers using HTML and CSS to display "cards" side-by-side with more in-depth descriptions about the services they provide. Since the client's users and employees will access the web site on different personal devices, they'd like you to use what you learned about responsive web design to make sure the layout of the page looks good for mobile, tablet, and larger devices.
+The computer company client is pleased with the layouts you've created for them so far. This week, the company would like you to focus on creating visual elements for viewers using HTML and CSS to display "cards" side-by-side with more in-depth descriptions about the services they provide. Since the client's users and employees will access the website on different personal devices, they'd like you to use what you learned about responsive web design to make sure the layout of the page looks good for mobile, tablet, and larger devices.
 
 ## Project Prep
 1. If you haven't done so already, clone the repo to your computer within your course folder.
@@ -19,9 +19,9 @@ The computer company client is pleased with the layouts you've created for them 
 
 ## Adjust the Template
 
-> **ASSIGNMENT TIP**<br>As you work on the styling for this assignment and future assignments, you should load the web page within your browser instead of using the preview window in VS Code. Then use the built in developer tools to simulate the different viewports that each CSS file will target. As you make adjustments to your CSS, see how it looks in the different viewports. Review the **Responsive Web Design** page in Lesson 9 for information on how to use the browser tools if needed. 
+> **ASSIGNMENT TIP**<br>As you work on the styling for this assignment and future assignments, you should load the web page within your browser instead of using the preview window in VS Code. Then use the built in developer tools to simulate the different viewports that each CSS file will target. As you make adjustments to your CSS, see how it looks in the different viewports. Review the [Responsive Web Design](https://riosalado.coursearc.com/content/cis133da-in-v12/lesson-10-css-at-rules-and-media-queries/responsive-web-design/) page in Lesson 10 for information on how to use the browser tools if needed. 
 
-1. If necessary, open the Template from your Lesson 9 folder.
+1. Open the template.html file from your Lesson 10 Project Repository.
 2. Add the necessary viewport metadata so the viewport width is equal to the device width and that the initial scale is set to 1.
 3. Modify the existing link to the external Default stylesheet to include a media query that detects when the device is larger than 900px.
     > **TIP:** When you first load the page and look at the different viewport sizes the styles should disappear entirely except for a viewport larger than 900px since there are no mobile or tablet styles.
