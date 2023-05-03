@@ -6,6 +6,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    margin: 0;
 }
 
 #wrapper {
@@ -52,15 +53,24 @@ nav a {
 
 nav a:hover {
     background-color: #135367;
+    color: #ffffff;
 }
 
-.right {
+nav .right {
     background-color: #E1693D;
+    color: #000000;
     float: right;
 }
 
-.active {
-    background-color: #135367;
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
 }
 
 /* Main Styles */
