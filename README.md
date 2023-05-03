@@ -34,10 +34,10 @@ The computer company client is pleased with the layouts you've created for them 
 2. Open the newly created services.html file.
 3. Update the HTML comment to add your section number and the lesson number.
 4. Update the metadata with the following: 
-    1. Change the title to: **Our Services**
-    2. Define the author using your first and last name.
-    3. Add a minimum of 5 keywords appropriate for the page content.
-    4. Add an appropriate description.
+    - Change the title to: **Our Services**
+    - Define the author using your first and last name.
+    - Add a minimum of 5 keywords appropriate for the page content.
+    - Add an appropriate description.
 5. Apply the **active** class to the "Services" link.
 6. Within the Main section, insert three separate DIV elements. These will serve as "cards" that will be defined visually with CSS later on. Apply a class to each div so that you can target them with your CSS. Within each div, include the following elements:
     - an image element that will display a 100px by 100px image. The image files for these elements can be found in the images directory within your Lesson 10 repository.
@@ -91,16 +91,25 @@ Compare your image to the following example - your colors may vary:
 ![Screenshot of example Services page](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L10-example1.png)
 
 ## Create a Responsive Design
+Be sure to save your changes to your styles. Now would be a good time to Sync your project to GitHub if you have not done so recently.
+
+At the beginning of this project, you identified the breakpoints for your responsive design when you added your media queries. You set them at 450px for mobile, and 900px for tablets. As you learned in this lesson, using set values for breakpoints is not best practice. Rather, you should examine your website and determine at what point your design falls apart. This is where you should define your breakpoints. Using the skills and techniques covered in this lesson on the [Responsive Design](https://riosalado.coursearc.com/content/cis133da-in-v12/lesson-10-css-at-rules-and-media-queries/responsive-web-design) page, determine at least 2 breakpoints for your web page. One should be aimed at mobile users, and one should be aimed at those using tablet devices.
+
 1. Create two copies of the `default_style.css` file.
-    1. Rename one file to `mobile_style.css` and the other file to `tablet_style.css`.
-2. Within the default styles, add a comment to identify the breakpoint value of the default stylesheet in pixels.
+    - Rename one file to `mobile_style.css` and the other file to `tablet_style.css`.
+2. Within the default styles, add a comment to identify the breakpoint value for this stylesheet, i.e., at what point will this stylesheet be used.
 3. Within the mobile styles and tablet styles, add a comment at the top explaining when the CSS file will be loaded by the browser.
 4. Style the main division element so that it is the full width of the viewport for mobile devices and tablets.
 5. Apply appropriate changes to the navigation bar so that each link is clearly visible for mobile devices and tablets.
-6. Style each section of the page (e.g. header, footer, main, etc.) so that each section visually defined. While color is an option to visually define each section, utilize appropriate font information, color, box model, etc. to make the changes obvious.
-    > **TIP:** You can use the **Color Selection Tool** to generate different color schemes for each view. Note that you normally would not apply different color schemes to the different views in real world scenarios, but for the assignment, you will be required to do so to create additional visual differences between the three views.
-    1. If the design you are trying to accomplish isn't working the way you want, it is OK to modify the HTML file to add another division element to group content. Just know you will potentially have to account for this new element in selectors in the other style sheets. For example, if you wish the navigation menu to appear next to the heading and paragraph instead of under it, you may need to wrap the heading and paragraph in a division element to make them appear as inline blocks.
-    2. Add comments at the beginning of each section to explain what changes you made to make the content look good and why you made the changes you made.
+6. Apply appropriate changes to the display of your card elements so that they fully display for all devices.
+7. Change the background-color for the footer in each of your stylesheets. This is so that your Instructor can easily view your breakpoints and media queries.
+    - If needed, you may make adjustments to your HTML to make your design exactly how you want it. 
+    - Add comments at the beginning of each section to explain what changes you made to make the content look good and why you made the changes you made.
+
+### Example Project Showing 3 Different Breakpoints
+***Your breakpoints may be different, so your site may look different. The footer color has been adjusted to visually confirm the application of each media query.***
+
+![Screenshot of example Services page](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L10-example2.png)
     
 ## Submit the Project
 Once you have completed your project, you need to let your instructor know that it is ready to be graded. This is done by submitting the Repo URL to the assignment in RioLearn.
