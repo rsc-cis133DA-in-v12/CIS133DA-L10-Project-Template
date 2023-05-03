@@ -25,15 +25,13 @@ The computer company client is pleased with the layouts you've created for them 
 2. Add the necessary viewport metadata so the viewport width is equal to the device width and that the initial scale is set to 1.
 3. Modify the existing link to the external Default stylesheet to include a media query that detects when the device is larger than 900px.
     > **TIP:** When you first load the page and look at the different viewport sizes the styles should disappear entirely except for a viewport larger than 900px since there are no mobile or tablet styles.
-4. Create an link for the external Mobile stylesheet to:
-    1. Apply a media query to load the mobile style CSS for any device that is smaller than 450px.
-5. Create an link for the external Tablet stylesheet to:
-    1. Apply a media query to load the tablet style CSS for any device that is smaller than 900px.
+4. Create a link for an external Mobile stylesheet titled `mobile_style.css`. You will be creating the actual CSS file later in the project. For now, just create the link. Add a media query to the link that will load this mobile stylesheet for any device that is **smaller than 450px**.
+5. Create a link for an external Tablet stylesheet titled `tablet_style.css`. You will be creating the actual CSS file later in the project. For now, just create the link. Add a media query to the link that will load this tablet stylesheet for any device that is **smaller than 900px**.
     > **TIP:** You must think through how to properly apply the tablet CSS file. If the media query is not designed correctly, it will override the mobile version and the mobile file will never be used.
 
 ## Create the Services Page
-1. Save a copy of the Template to your Lesson 9 folder as: **services.html**
-2. Open the Services page from your Lesson 9 folder, if necessary.
+1. Save a copy of the Template to your Lesson 10 Repo folder as: **services.html**
+2. Open the newly created services.html file.
 3. Update the HTML comment to add your section number and the lesson number.
 4. Update the metadata with the following: 
     1. Change the title to: **Our Services**
@@ -41,7 +39,7 @@ The computer company client is pleased with the layouts you've created for them 
     3. Add a minimum of 5 keywords appropriate for the page content.
     4. Add an appropriate description.
 5. Apply the **active** class to the "Services" link.
-6. Within the Main section, create an HTML layout structure for a "card" you'll define visually with CSS later on. Utilize the appropriate HTML elements complete the following:
+6. Within the Main section, create an HTML layout structure for a "card" you'll define visually with CSS later on. Utilize the appropriate HTML elements to include the following for each card:
     1. Display a 100px by 100px image.
     2. Using an appropriate heading, display the name of the service.
     3. Add a brief description of the service.
